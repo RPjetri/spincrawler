@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+
+    <title>SpinCrawler: Reducing confirmation bias</title>
+
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="img/spincrawler-logo.png" height="50" width="250" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#spinCrawlerNavbar"
+            aria-controls="spinCrawlerNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="spinCrawlerNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+        <div class="container">
+
+            <div class="row row-content align-items-center">
+                <div class="col mt-5">
+                    <h4>Frequently Asked Questions</h4>
+                </div>
+            </div>
+            <div class="row row-content">
+                <div class="col">
+                    <div id="accordion">
+                        <div class="card">
+                            <div role="tab" class="card-header">
+                                <h5>
+                                    <a data-toggle="collapse" data-target="#whyCreate">
+                                        Why was this site created?
+                                    </a>
+                                </h5>
+                                <div class="collapse show" id="whyCreate" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>We want to help visitors understand the political and perceptual bias of all news organizations large and small throughout the internet. We want this website to help visitors make educated decisions when it comes to forming opinions on important issues. It is our goal to curb the confirmation bias that we believe has plays an important role in forming our polarized political and social climate.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div role="tab" class="card-header">
+                                <h5>
+                                    <a class="collapsed" data-toggle="collapse" data-target="#confirmationBias">
+                                        What is confirmation bias?
+                                    </a>
+                                </h5>
+                                <div class="collapse" id="confirmationBias" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>Confirmation bias is the tendency to search for, interpret, favor, and recall information in a way that confirms or supports one's prior beliefs or values.</p>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div role="tab" class="card-header">
+                                <h5>
+                                    <a class="collapsed" data-toggle="collapse" data-target="#orgCategories">
+                                        How are you categorizing organizations?
+                                    </a>
+                                </h5>
+                                <div class="collapse" id="orgCategories" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>We use third party data sources such as Axios to determine how to categorize particular websites. For websites with a smaller audience and no third party data to refer to we do our best to carefully discern how to categorize these ourselves.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div role="tab" class="card-header">
+                                <h5>
+                                    <a class="collapsed" data-toggle="collapse" data-target="#ourTeam">
+                                        How large is the team at SpinCrawler?
+                                    </a>
+                                </h5>
+                                <div class="collapse" id="ourTeam" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>Right now, it's just me behind the scenes refining my knowledge of API programming that is needed for this website to become a reality.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <footer class="footer">
+
+        <!-- Copyright -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p class="text-muted text-center">© 2023 SpinCrawler</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright -->
+
+    </footer>
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
